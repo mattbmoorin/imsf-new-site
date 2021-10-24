@@ -1,23 +1,37 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import Logo from '../imsf_logo.png';
+
+const scrollToTop = () => {
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
+};
 
 const Navbar = () => {
   return (
     <nav className="nav" id="navbar">
       <div className="nav-content">
-        {/* <img
-          src={logo}
+        <img
+          src={Logo}
           className="nav-logo"
           alt="Logo."
           onClick={scrollToTop}
-        /> */}
+        />
         <ul className="nav-items">
-          <li className="nav-item">Section 1</li>
-          <li className="nav-item">Section 2</li>
-          <li className="nav-item">Section 3</li>
-          <li className="nav-item">Section 4</li>
-          <li className="nav-item">Section 5</li>
+          <a href="#SectionOne">
+            <li name="section1" className="nav-item">
+              This Year's Recipients
+            </li>
+          </a>
+          <a href="#SectionTwo">
+            <li className="nav-item">Past Recipients</li>
+          </a>
+          <a href="#SectionThree">
+            <li className="nav-item">Special Events</li>
+          </a>
+          <a href="#SectionFour">
+            <li className="nav-item">Donate</li>
+          </a>
         </ul>
+        <div className="nav-phone">Call Now: 203-918-3211</div>
       </div>
     </nav>
   );

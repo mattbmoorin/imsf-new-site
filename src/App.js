@@ -1,42 +1,24 @@
 import './App.css';
+
 import Navbar from './components/Navbar';
-// import Section from './Components/Section';
-import dummyText from './components/DummyText';
+import TopSection from './components/TopSection';
+import SectionOne from './components/SectionOne';
+import SectionTwo from './components/SectionTwo';
+import SectionThree from './components/SectionThree';
+import SectionFour from './components/SectionFour';
+
+// import { HashLink as Link } from 'react-router-hash-link';
+// import dummyText from './Components/DummyText';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <Section
-        title="Section 1"
-        subtitle={dummyText}
-        dark={true}
-        id="section1"
-      />
-      <Section
-        title="Section 2"
-        subtitle={dummyText}
-        dark={false}
-        id="section2"
-      />
-      <Section
-        title="Section 3"
-        subtitle={dummyText}
-        dark={true}
-        id="section3"
-      />
-      <Section
-        title="Section 4"
-        subtitle={dummyText}
-        dark={false}
-        id="section4"
-      />
-      <Section
-        title="Section 5"
-        subtitle={dummyText}
-        dark={true}
-        id="section5"
-      /> */}
+      <TopSection />
+      <SectionOne />
+      <SectionTwo />
+      <SectionThree />
+      <SectionFour />
     </div>
   );
 }

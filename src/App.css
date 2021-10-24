@@ -1,15 +1,105 @@
+/* 
+_____________________________________________________
+Global
+_____________________________________________________
+*/
+
 * {
+  scroll-behavior: smooth;
+  text-decoration: none;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', sans-serif;
+  font-family: system-ui, -apple-system,
+    /* Firefox supports this but not yet `system-ui` */ 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 }
 
 :root {
   --off-white: #fafafa;
 }
 
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+/* 
+_____________________________________________________
+Elements
+_____________________________________________________
+*/
+
+h2 {
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/* 
+_____________________________________________________
+Sections & Heroes 
+_____________________________________________________
+*/
+
+.hero {
+  background: linear-gradient(#3636bf, rgba(8, 93, 178, 0.518));
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /*   background-color: #eee; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-next {
+  background: linear-gradient(rgba(8, 93, 178, 0.518), #3636bf);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  /*   background-color: #eee; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-inner {
+  opacity: 0.9999;
+  text-align: center;
+  max-width: 1000px;
+  padding: 0 2rem;
+}
+
+.hero-headline {
+  opacity: 0.9999;
+
+  margin: 0;
+  color: #fafafa;
+  font-weight: 400;
+}
+
+.section-dark {
+  background: #333;
+  color: white;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/*
+_____________________________________________________
+Navbar 
+_____________________________________________________
+*/
+
 .nav {
+  opacity: 0.9;
   background-color: var(--off-white);
   position: sticky;
   top: 0px;
@@ -20,8 +110,14 @@
 }
 
 .nav-logo {
-  height: 60px;
-  width: 60px;
+  position: absolute;
+  display: flex !important;
+  justify-content: space-between;
+  left: 10px;
+  top: 10px;
+  margin: 0px 15px 15px 0px;
+  height: 56px;
+  width: 188px;
 }
 
 .nav-logo:hover {
@@ -30,7 +126,7 @@
 
 .nav .nav-content {
   max-width: 900px;
-  padding: 0rem 3rem;
+  padding: 0rem 9.6rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -45,20 +141,17 @@
 }
 
 .nav-item:hover {
-  color: black;
-  cursor: pointer;
+  color: blue;
+  cursor: -webkit-grab;
 }
 
-.section {
+.nav-item:active {
+  color: steelblue;
+  cursor: -webkit-grabbing;
 }
 
-.section-dark {
-  background: #333;
-  color: white;
-}
-
-.section-content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
+.nav-phone {
+  position: absolute;
+  text-align: right;
+  right: 30px;
 }
