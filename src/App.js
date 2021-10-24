@@ -1,4 +1,8 @@
 import './App.css';
+import 'swiper/swiper-bundle.min.css';
+import 'swiper/swiper.min.css';
+
+import Flag from './Bridgeport_flag.png';
 
 import Navbar from './components/Navbar';
 import TopSection from './components/TopSection';
@@ -7,8 +11,7 @@ import SectionTwo from './components/SectionTwo';
 import SectionThree from './components/SectionThree';
 import SectionFour from './components/SectionFour';
 
-// import { HashLink as Link } from 'react-router-hash-link';
-// import dummyText from './Components/DummyText';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 function App() {
   return (

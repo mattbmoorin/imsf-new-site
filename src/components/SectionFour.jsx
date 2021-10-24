@@ -9,10 +9,9 @@ const SectionOne = () => {
             <i>Donate Today</i>
           </h1>
           <br />
-
-          <h2>
+          <h2 className="section-dark">
             We are powered by you! Our mission to provide a pathway to education
-            for our future generations is supported by your tax deductible
+            for future generations is supported by your tax deductible
             donations. We graciously accept donations anytime using the PayPal
             button below. Please feel free to contact us with any questions!
           </h2>

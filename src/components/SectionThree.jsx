@@ -9,32 +9,32 @@ const SectionOne = () => {
             <i>Special Events</i>
           </h1>
           <br />
-          <h2>
+          <h2 className="section-dark">
             The Irving Moorin Scholarship Fund periodically organizes special
             fundraising events for the community. Below are highlights from our
             past events. Please check back here for details on upcoming
             fundraisers!
-          </h2>
-          <br />
-          <h1>
-            <bold>
-              <i>2021</i>
-            </bold>
-          </h1>
-          <h2>
+            <br />
+            <br />
+            <h1 className="hero-headline">
+              <bold>
+                <i>2021</i>
+              </bold>
+            </h1>
+            <br />
             Our "No Tuxes, No Ties, No Patent Leather Shoes Just Rock n' Roll,
             Funk and Rhythm and Blues" 2021 Summer Fundraiser at the Penfield
             Pavillion in Fairfield, CT was a great success!
-          </h2>
-          <br />
-          <h1>
-            <bold>
-              <i>2017</i>
-            </bold>
-          </h1>
-          <h2>
+            <br />
+            <br />
+            <h1 className="hero-headline">
+              <bold>
+                <i>2017</i>
+              </bold>
+            </h1>
+            <br />
             Our last fundraiser was a very special one-time performance in
-            December 2017! This concert was held to benefit The Irving Moorin
+            December 2017. This concert was held to benefit The Irving Moorin
             Scholarship Fund and the B’nai Israel Music Program. Musicians
             included Rabbi Greg Wall (tenor saxophone), Jaimie Baum (flute),
             Brian Marsella (piano), Jay Anderson (bass), and Adam Nussbaum

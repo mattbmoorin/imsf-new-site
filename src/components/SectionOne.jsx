@@ -10,7 +10,7 @@ const SectionOne = () => {
           </h1>
           <br />
 
-          <h2>
+          <h2 className="section-dark">
             This year saw two deserving candidates between whom we could not
             choose. So, each will receive a $4,000 award. Congratulations to
             Barbara Jones of Central High School and Roger Dafoe of Fairfield

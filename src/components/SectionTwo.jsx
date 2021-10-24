@@ -10,7 +10,7 @@ const SectionTwo = () => {
           </h1>
           <br />
 
-          <h2>
+          <h2 className="section-dark">
             The ISM fund makes dreams of attending college come true for
             students who might not otherwise be able to attend college. Many
             graduating seniors in the Bridgeport, CT area have received this

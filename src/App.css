@@ -25,6 +25,20 @@ html {
 
 /* 
 _____________________________________________________
+Images
+_____________________________________________________
+*/
+
+.flag {
+  opacity: 0.799;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 400px;
+  max-height: 300px;
+}
+
+/* 
+_____________________________________________________
 Elements
 _____________________________________________________
 */
@@ -43,19 +57,20 @@ _____________________________________________________
 */
 
 .hero {
-  background: linear-gradient(#3636bf, rgba(8, 93, 178, 0.518));
+  opacity: 2;
+  background: linear-gradient(#12126a, rgb(20, 37, 54));
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  /*   background-color: #eee; */
+  background-color: #eee;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .hero-next {
-  background: linear-gradient(rgba(8, 93, 178, 0.518), #3636bf);
+  background: linear-gradient(rgb(20, 37, 54), #12126a);
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -75,15 +90,14 @@ _____________________________________________________
 
 .hero-headline {
   opacity: 0.9999;
-
   margin: 0;
   color: #fafafa;
   font-weight: 400;
 }
 
 .section-dark {
-  background: #333;
-  color: white;
+  /* background: #333; */
+  color: rgb(255, 248, 205);
 }
 
 .section-content {
